@@ -36,6 +36,5 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/idt-25-27/publish-docker-images-gabrielenocera/stackoverflown:main
-            ghcr.io/idt-25-27/publish-docker-images-gabrielenocera/stackoverflown:${{ github.sha }}
-            
+            ghcr.io/${{ github.repository }}/stackoverflown:main
+            ghcr.io/${{ github.repository }}/stackoverflown:${{ github.sha }}
