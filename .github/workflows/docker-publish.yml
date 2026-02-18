@@ -37,3 +37,4 @@ jobs:
           tags: |
             ghcr.io/${{ github.repository }}/stackoverflown:main
             ghcr.io/${{ github.repository }}/stackoverflown:${{ github.sha }}
+            
